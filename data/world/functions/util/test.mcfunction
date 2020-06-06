@@ -1,12 +1,8 @@
 execute as @e[tag=turret] at @s run tp @s ~ ~ ~ facing entity @p
 
-execute as @a store result score @s playerX run data get entity @s Pos[0] 100
-execute as @a store result score @s playerY run data get entity @s Pos[1] 100
-execute as @a store result score @s playerZ run data get entity @s Pos[2] 100
-
-execute as @e[name=legolas_arrow] store result score @s projectileX run data get entity @s Pos[0] 100
-execute as @e[name=legolas_arrow] store result score @s projectileY run data get entity @s Pos[1] 100
-execute as @e[name=legolas_arrow] store result score @s projectileZ run data get entity @s Pos[2] 100
+execute as rachoman store result score @s playerX run data get entity @s Pos[0] 100
+execute as rachoman store result score @s playerY run data get entity @s Pos[1] 100
+execute as rachoman store result score @s playerZ run data get entity @s Pos[2] 100
 
 execute as @e[name=legolas_arrow] store result score @s projectileX run scoreboard players operation @s projectileX -= rachoman playerX
 execute as @e[name=legolas_arrow] store result score @s projectileY run scoreboard players operation @s projectileY -= rachoman playerY
