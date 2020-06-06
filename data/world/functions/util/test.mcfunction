@@ -1,1 +1,1 @@
-execute as @e[type=!minecraft:player] at @s run tp @s ~ ~ ~ facing entity rachoman
+execute as @e[tag=turret] at @s run tp @s ~ ~ ~ facing entity rachoman
