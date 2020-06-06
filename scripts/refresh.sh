@@ -1,5 +1,5 @@
 while :
 do
-	echo "Press [CTRL+C] to stop.."
-	sleep 1
+    git pull
+	sleep 30
 done
