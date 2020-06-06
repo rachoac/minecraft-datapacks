@@ -24,6 +24,6 @@ scoreboard players reset @e projectileZ
 
 execute as @e[name=legolas_arrow] at @s run data merge entity @s {CustomName:""}
 
-data merge block -4660 71 769 {Text1:'{"score":{"objective":"projectileX","name":"@p"}}'}
-data merge block -4660 71 769 {Text2:'{"score":{"objective":"projectileY","name":"@p"}}'}
-data merge block -4660 71 769 {Text3:'{"score":{"objective":"projectileZ","name":"@p"}}'}
+data merge block -4660 71 769 {Text1:'{"score":{"objective":"projectileX","name":"legolas_arrow"}}'}
+data merge block -4660 71 769 {Text2:'{"score":{"objective":"projectileY","name":"legolas_arrow"}}'}
+data merge block -4660 71 769 {Text3:'{"score":{"objective":"projectileZ","name":"legolas_arrow"}}'}
