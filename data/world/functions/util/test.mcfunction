@@ -16,10 +16,6 @@ execute as @e[name=legolas_arrow] store result entity @s Motion[0] double 0.1 ru
 execute as @e[name=legolas_arrow] store result entity @s Motion[1] double 0.1 run scoreboard players get @s projectileY
 execute as @e[name=legolas_arrow] store result entity @s Motion[2] double 0.1 run scoreboard players get @s projectileZ
 
-scoreboard players reset @e projectileX
-scoreboard players reset @e projectileY
-scoreboard players reset @e projectileZ
-
 data merge block -4660 71 769 {Text1:'{"score":{"objective":"projectileX","name":"legolas_arrow"}}'}
 data merge block -4660 71 769 {Text2:'{"score":{"objective":"projectileY","name":"legolas_arrow"}}'}
 data merge block -4660 71 769 {Text3:'{"score":{"objective":"projectileZ","name":"legolas_arrow"}}'}
