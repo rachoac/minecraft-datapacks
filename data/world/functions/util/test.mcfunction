@@ -1,0 +1,1 @@
+tell @p "hi there"
