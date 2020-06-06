@@ -7,9 +7,9 @@ execute as @e[name=legolas_arrow] store result score @s projectileX run data get
 execute as @e[name=legolas_arrow] store result score @s projectileY run data get entity @s Pos[1] 100
 execute as @e[name=legolas_arrow] store result score @s projectileZ run data get entity @s Pos[2] 100
 
-execute as @e[name=legolas_arrow] store result score @s projectileX run scoreboard players operation @s projectileX -= @p[tag=archer] playerX
-execute as @e[name=legolas_arrow] store result score @s projectileY run scoreboard players operation @s projectileY -= @p[tag=archer] playerY
-execute as @e[name=legolas_arrow] store result score @s projectileZ run scoreboard players operation @s projectileZ -= @p[tag=archer] playerZ
+execute as @e[name=legolas_arrow] store result score @s projectileX run scoreboard players operation @s projectileX -= @p[tag=turret] playerX
+execute as @e[name=legolas_arrow] store result score @s projectileY run scoreboard players operation @s projectileY -= @p[tag=turret] playerY
+execute as @e[name=legolas_arrow] store result score @s projectileZ run scoreboard players operation @s projectileZ -= @p[tag=turret] playerZ
 
 execute as @e[name=legolas_arrow] at @s run tp @s ~ ~1.62 ~
 
