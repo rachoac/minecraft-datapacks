@@ -1,1 +1,1 @@
-tell @p "hi there"
+tell @p "hi there update"
