@@ -1,1 +1,1 @@
-tell @p "hi there update 3"
+execute as @e[type=!minecraft:player] at @s run tp @s ~ ~ ~ facing entity rachoman
