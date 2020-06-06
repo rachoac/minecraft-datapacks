@@ -12,8 +12,6 @@ execute as @e[name=legolas_arrow] store result score @s projectileX run scoreboa
 execute as @e[name=legolas_arrow] store result score @s projectileY run scoreboard players operation @s projectileY -= rachoman playerY
 execute as @e[name=legolas_arrow] store result score @s projectileZ run scoreboard players operation @s projectileZ -= rachoman playerZ
 
-execute as @e[name=legolas_arrow] at @s run tp @s ~ ~1.62 ~
-
 execute as @e[name=legolas_arrow] store result entity @s Motion[0] double 0.1 run scoreboard players get @s projectileX
 execute as @e[name=legolas_arrow] store result entity @s Motion[1] double 0.1 run scoreboard players get @s projectileY
 execute as @e[name=legolas_arrow] store result entity @s Motion[2] double 0.1 run scoreboard players get @s projectileZ
