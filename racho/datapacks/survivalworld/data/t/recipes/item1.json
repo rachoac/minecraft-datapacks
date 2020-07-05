@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#",
+    "X",
+    "O"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    "X": {
+      "item": "minecraft:stick",
+      "data": 0
+    },
+    "O": {
+      "item": "minecraft:netherite_ingot",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}
