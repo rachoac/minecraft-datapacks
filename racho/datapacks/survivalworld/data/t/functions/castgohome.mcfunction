@@ -1,3 +1,4 @@
+execute as @e[nbt={Item: {tag: { CustomModelData:1011} } }] run kill
 
 summon armor_stand ~ ~ ~ {NoGravity:1,Invulnerable:1,Invisible:1,Tags:["point"]}
 summon armor_stand ~ ~ ~ {Tags:["point"]}

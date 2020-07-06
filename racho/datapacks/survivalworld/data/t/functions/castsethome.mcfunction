@@ -1,3 +1,5 @@
+execute as @e[nbt={Item: {tag: { CustomModelData:1010} } }] run kill
+
 execute store result score @s homex run data get entity @s Pos[0]
 execute store result score @s homey run data get entity @s Pos[1]
 execute store result score @s homez run data get entity @s Pos[2]
