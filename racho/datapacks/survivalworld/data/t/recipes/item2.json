@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+      "x",
+      "/",
+      "n"
+  ],
+  "key": {
+    "x": {
+        "item": "minecraft:quartz"
+    },
+    "/": {
+          "item": "minecraft:cactus"
+      },
+      "n": {
+          "item": "minecraft:diamond_block"
+      }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}
