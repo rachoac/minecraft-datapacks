@@ -4,6 +4,7 @@
       "layer0": "minecraft:item/carrot_on_a_stick"
     },
     "overrides": [
-        { "predicate": { "custom_model_data": 1000 }, "model": "item/wand" }
+        { "predicate": { "custom_model_data": 1000 }, "model": "item/wand" },
+        { "predicate": { "custom_model_data": 1005 }, "model": "item/totem_of_repulsion" }
     ]
 }
