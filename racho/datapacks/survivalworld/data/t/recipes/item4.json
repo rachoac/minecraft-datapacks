@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "dqd", 
+    "dad", 
+    "ddd"],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "a": {
+      "item": "minecraft:golden_apple"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}
